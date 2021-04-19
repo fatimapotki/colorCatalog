@@ -1,32 +1,32 @@
 {
-  "expo": {
-    "name": "colorCatalog",
-    "slug": "colorCatalog",
-    "version": "1.0.0",
-    "orientation": "portrait",
-    "icon": "./assets/icon.png",
-    "splash": {
-      "image": "./assets/splash.png",
-      "resizeMode": "contain",
-      "backgroundColor": "#ffffff"
-    },
-    "updates": {
-      "fallbackToCacheTimeout": 0
-    },
-    "assetBundlePatterns": [
-      "**/*"
-    ],
-    "ios": {
-      "supportsTablet": true
-    },
-    "android": {
-      "adaptiveIcon": {
-        "foregroundImage": "./assets/adaptive-icon.png",
-        "backgroundColor": "#FFFFFF"
-      }
-    },
-    "web": {
-      "favicon": "./assets/favicon.png"
-    }
-  }
+	"expo": {
+		"name": "MycolorCatalog",
+		"description": "Catalog your colors",
+		"slug": "colorCatalog",
+		"platforms": ["ios", "android"],
+		"version": "1.0.0",
+		"orientation": "portrait",
+		"icon": "./assets/stay.png",
+		"splash": {
+			"image": "./assets/stay.png",
+			"resizeMode": "contain",
+			"backgroundColor": "#ffffff"
+		},
+		"updates": {
+			"fallbackToCacheTimeout": 0
+		},
+		"assetBundlePatterns": ["**/*"],
+		"ios": {
+			"supportsTablet": true
+		},
+		"android": {
+			"adaptiveIcon": {
+				"foregroundImage": "./assets/adaptive-icon.png",
+				"backgroundColor": "#FFFFFF"
+			}
+		},
+		"web": {
+			"favicon": "./assets/favicon.png"
+		}
+	}
 }

@@ -1,0 +1,92 @@
+import React, { useState } from "react";
+// import {
+// 	Button,
+// 	Text,
+// 	View,
+// 	ActivityIndicator,
+// 	Alert,
+// 	Dimensions,
+// 	Platform,
+// 	ProgressViewIOS,
+// 	ProgressBarAndroid,
+// 	StyleSheet,
+// 	TouchableHighlight,
+// } from "react-native";
+// import ColorButton from "./Components/ColorButton";
+// import churros from "./assets/churros.jpg";
+// import blackCat from "./assets/blackCat.jpg";
+
+// // const { height, width } = Dimensions.get("window");
+// // const onButtonPress = () => {
+// // 	//console.log(`${new Date().toLocaleTimeString()} button press`);
+// // 	Alert.alert(`${new Date().toLocaleTimeString()} button pressed`);
+// // };
+
+// export default function App() {
+// 	const [backgroundColor, setBackgroundColor] = useState("blue");
+// 	return (
+// 		<View style={[Styles.mainContainer, { backgroundColor }]}>
+// 			<ColorButton backgroundColor='red' onPress={setBackgroundColor} />
+// 			<ColorButton backgroundColor='purple' onPress={setBackgroundColor} />
+// 			<ColorButton backgroundColor='blue' onPress={setBackgroundColor} />
+// 			<ColorButton backgroundColor='green' onPress={setBackgroundColor} />
+// 			<ColorButton backgroundColor='pink' onPress={setBackgroundColor} />
+
+// 			{/* <Text style={Styles.button} onPress={() => setBackgroundColor("green")}>
+// 			green
+// 			</Text>
+// 			<Text style={Styles.button} onPress={() => setBackgroundColor("red")}>
+// 				red
+// 			</Text> */}
+
+// 			{/* <Image style={Styles.image} source={churros} />
+// 			<Image style={Styles.image} source={blackCat} /> */}
+// 			{/* {Platform.OS === "ios" && <ProgressViewIOS progress={0.2} />}
+// 			{Platform.OS === "android" && (
+// 				<ProgressBarAndroid
+// 					progress={0.2}
+// 					styleAttr='Horizontal'
+// 					color='blue'
+// 					indeterminate={false}
+// 				/>
+// 			)} */}
+
+// 			{/* <ActivityIndicator size='large' color='#61DBFB' /> */}
+
+// 			{/* <Button
+// 				style={{
+// 					marginHorizental: 50,
+// 				}}
+// 				onPress={onButtonPress}
+// 				title='Click me'
+// 			/> */}
+// 			{/* <Text style={Styles.text}>OS: {Platform.OS}</Text>
+// 			<Text style={Styles.selectedText}>Height: {height}</Text>
+// 			<Text style={Styles.text}>Width: {width}</Text> */}
+// 		</View>
+// 	);
+// }
+
+// const Styles = StyleSheet.create({
+// 	mainContainer: {
+// 		flex: 1,
+// 		display: "flex",
+// 		justifyContent: "center",
+// 		alignItems: "center",
+// 	},
+
+// 	image: {
+// 		flex: 1,
+// 		margin: 5,
+// 		borderRadius: 50,
+// 		width: Dimensions.get("window").width - 15,
+// 	},
+// 	selectedText: {
+// 		textAlign: "center",
+// 		color: "yellow",
+// 		backgroundColor: "red",
+// 		fontSize: 20,
+// 		margin: 10,
+// 		padding: 5,
+// 	},
+// });
